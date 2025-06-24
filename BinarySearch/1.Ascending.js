@@ -22,7 +22,7 @@ const binarySearch = (arr, target) => {
 
         if (arr[tengah] === target){ // index 2 = 7 and target 19 
             return target
-        } else if (arr[tengah] < target){ // 2 < 19
+        } else if (arr[tengah] < target){ // index 2 = 7 < 19
             kiri = tengah + 1 // cari sebelah kanan 2 + 1
         } else if (arr[tengah] > target){
             kanan = tengah - 1 // cari sebelah kiri jika kondisi ini tengah - 1
