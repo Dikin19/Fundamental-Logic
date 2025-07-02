@@ -160,7 +160,7 @@ const airportsArray = Object.entries(airports).map(([icao, a]) => ({ // Object.e
 }));
 console.log();
 console.log('======');
-console.log('MergeAirport');
+console.log('MergedAirport');
 console.log();
 console.log(airportsArray);
 
