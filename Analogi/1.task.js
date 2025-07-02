@@ -59,3 +59,56 @@ if (nilai >= 90 && nilai <= 100) {
 } else {
     console.log("Nilai tidak valid. Harus antara 0 dan 100.");
 }
+
+/*
+Latihan && (AND):
+
+Buat program yang meminta usia dan tinggi badan pengguna.
+
+Tampilkan "Anda memenuhi syarat untuk wahana X!" hanya jika usia >= 10 DAN tinggi badan >= 120 cm.
+
+Jika tidak, tampilkan "Maaf, Anda tidak memenuhi syarat."
+*/
+
+let usia1 = 27
+let tinggi = 159
+
+if (usia >= 10 && tinggi >= 160){
+    console.log(`Anda memenuhi wahana X!`);
+} else { console.log(`Maaf, Anda tidak memenuhi syarat`); }
+
+/*
+Latihan || (OR):
+Buat program yang meminta pengguna memasukkan hari dalam seminggu.
+Tampilkan "Hari libur!" jika hari adalah "Sabtu" ATAU "Minggu".
+Jika tidak, tampilkan "Hari kerja."
+*/
+
+let weekends = ['sabtu', 'minggu']
+let weekends1 = 'senin'
+
+for (const weekend of weekends){
+    if (weekend === 'sabtu' || weekend === 'minggu'){
+        console.log(`libur!`);
+    } else {console.log(`Hari kerja`);}
+}
+
+if (weekends1 === 'sabtu' || weekends1 === 'minggu'){
+        console.log(`libur!`);
+    } else {console.log(`Hari kerja`);}
+
+/*
+Latihan ! (NOT):
+
+Buat program yang mendeklarasikan variabel isHujan = true;.
+
+Gunakan operator ! untuk menampilkan "Bawa payung!" jika isHujan adalah true, dan "Tidak perlu payung!" jika isHujan adalah false. (Anda bisa mengubah nilai isHujan untuk menguji).
+*/
+
+let isHujan = false
+
+if (!isHujan){
+    console.log(`Tidak perlu bawa payung`);
+} else {
+    console.log(`Bawa Payung`);
+}
