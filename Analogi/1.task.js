@@ -105,7 +105,7 @@ Buat program yang mendeklarasikan variabel isHujan = true;.
 Gunakan operator ! untuk menampilkan "Bawa payung!" jika isHujan adalah true, dan "Tidak perlu payung!" jika isHujan adalah false. (Anda bisa mengubah nilai isHujan untuk menguji).
 */
 
-let isHujan = false
+let isHujan = true
 
 if (!isHujan){
     console.log(`Tidak perlu bawa payung`);
