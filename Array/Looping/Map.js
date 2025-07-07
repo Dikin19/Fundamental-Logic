@@ -69,7 +69,7 @@ const kombinasi = angka
     console.log('5. hasil contoh kasus 5: kombinasi dengan method lain (filter dan map) dari data',angka, 'menjadi :', kombinasi);
 
 /*
-git commit -m "Array-looping : ForEach"
+git commit -m "Array-looping : Filter"
 | Jenis Soal                                                    | Gunakan?    | Tips                                            |
 | ------------------------------------------------------------- | ----------- | ----------------------------------------------- |
 | "Buat array baru dari hasil perubahan tiap elemen"            | `map()`     | Tambahkan `return`, jangan lupa simpan hasilnya |
